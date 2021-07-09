@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+
+body{
+	background-image: url("./background.jpg");
+}
+
+header{
+	max-width: 1000px;
+	width: 100%;
+	padding: 10px 20px;
+	background-image: url("./backgroundheader.png");
+	background-repeat: no-repeat;
+	height: 18vh;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-size: cover;
+	
+}
+
+.size{
+	width: 250px;
+	height: 150px;
+}
+
+
+.btn-blue{
+	background: linear-gradient(rgb(49, 119, 238) 0%, rgb(17, 61, 138) 100%) white;
+	font-family: "Fredoka One", normal;
+	letter-spacing: 1px;
+    color: #FFFFFF;
+    padding: 12px 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 21px;
+    font-size: 18px;
+}
+
+.btn-blue:hover{
+	 box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.14),0 10px 15px 0 rgba(0,0,0,0.39);
+	 color: #96dff4;
+}
+
+@media screen and (min-width:768px) {
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+

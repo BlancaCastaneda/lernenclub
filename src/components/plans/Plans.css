@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+
+.planes{
+  background-color: #c9dbe9;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto; 
+}
+
+.planest{
+   font-family:'Fredoka One';
+   color: #0EB7EB;
+   font-size: 40px;
+   text-align:center ;
+}
+.imgcaptura{
+   width: 300px;
+   height: 300px;
+   border-radius: 100%;
+   border: 5px solid #fff;
+}
+
+.cajasgloba{
+  margin: auto;
+  padding: 40px;
+
+}
+
+.cajatipo3{
+   text-align: center
+	
+}
+
+
+
+p{
+
+	margin: 0.5em;
+
+	text-align: justify;
+	font-family: 'Amiko', sans-serif;
+}
+
+img.derecha{
+
+  
+  margin-left:60px;
+  float: left;
+  border-radius: 10px;
+
+}
+.tiizquierda{
+	text-align: center;
+	width: 50%;
+	
+	margin-left: 80px;
+}
+.tdderecha{
+	text-align: center;
+	width: 50%;
+
+	float: right;
+	margin-right: 70px;
+
+}
+
+img.izquierda{
+
+  width: 280px;
+
+  margin-right:60px;
+  float: right;
+  border-radius: 10px;
+
+}
+/*caja informacion planes*/
+.cajap p{
+	font-family: 'Amiko', sans-serif;
+	font-size: 25px;
+	color: #1C2833;
+	margin: 0px ;
+   text-align: justify;
+   padding-left: 30px;
+   padding-right: 40px;
+}
+
+/**Titulos Planes**/
+.tderecha{
+	text-align: right;
+	margin-right: 125px;
+}
+.tderechaa{
+	text-align: left;
+	
+}
+
+.tizquierda{
+	text-align: right;
+	
+}
+
+
+
+
+
+/*** Estilos Caja Porcentajes***/
+
+.caja .izquierda:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+}
+
+.caja{
+   width: 150%;
+   max-width: 320px;
+  
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+   display: inline-block;
+   font-size: inherit;
+   margin-left: 18px;
+  
+}
+iframe {
+width: 500px;
+height:  300px;
+border-radius: 1em;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+.caja .izquierda{
+	
+   width: 330px;
+  	
+   border-radius: 8px;	
+   box-shadow: 0px 0px 10px #000000;
+   overflow: hidden;	
+   margin: 120px;
+   text-align: center;
+   transition: all 0.25s;
+   shape-margin: 100px;
+   margin-left: 260px;
+
+}
+.caja .izquierda img{
+   width: 200px;
+   
+   margin-top: 30px;
+}
+
+.caja .izquierda img{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+
+}
+
+.caja .izquierda img:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+   -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+   transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+}
+
+
+.caja .izquierda h3{
+    font-weight: 600;
+    
+    font-family:'Fredoka One';
+    text-align: center;
+    font-size:1.2em;
+  
+
+}
+.caja .izquierda p{
+	padding: 0 1 rem;
+	font-size: 16px;
+	font-weight: 400;
+	color:#17202A;
+	font-family: 'Amiko', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+.caja .izquierda a{
+	font-weight: 500;
+	text-decoration: none;
+	
+}

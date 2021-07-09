@@ -1,0 +1,13 @@
+#banner{
+	max-width: 1000px;
+	width: 100%;
+	background-color: rgba(189, 239, 83, 0.20);
+	max-height: 350vh;
+	height: auto;
+	margin: auto;
+}
+
+#banner img{
+	width: 100%;
+	height:100%;
+}

@@ -1,0 +1,103 @@
+.titulomatricula{
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	font-size: 17px;
+	font-family: "Fredoka One", normal;
+}
+.matricula{
+	max-width: 1000px;
+	width:100%;
+	/*height: 60px;*/
+	height: auto;
+	margin: auto;
+	letter-spacing: 15px;
+	text-align: center;
+	font-size:32px;
+	color: white;
+	background: linear-gradient(rgb(49, 119, 238) 0%, rgb(17, 61, 138) 100%) white;
+	text-shadow: 6px 6px 4px #222222;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h2{
+	width: 100%;
+	height: 100%;
+	
+	font-family: "Fredoka One", normal;
+	justify-content: center;
+	align-items: center;
+}
+
+/******************* SECTION PRINCIPAL *************/
+
+.principal{
+	max-width: 1000px;
+	width: 100%;
+	background: #c9dbe9;
+	min-height: 370px;
+	margin: auto;
+	display: flex;
+	
+	box-sizing: border-box;
+}
+
+.cajap{
+	width: 33.3%;
+	float:left;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+
+.cajap img:hover{
+	transform: scale(0.9);
+}
+
+.cajap img{
+	width: 80%;
+	height: 70%;
+	border-radius: 50px;
+	box-shadow: 6px 6px 4px #444444;
+	transition: all 0.5s linear;
+	margin-bottom: 15px;
+}
+
+
+
+.separador{
+	background: linear-gradient(rgb(49, 119, 238) 0%, rgb(17, 61, 138) 100%) white;
+	font-family: "Fredoka One", normal;
+	
+	text-decoration: none;
+	width: 120px;
+	height: 30px;
+	border-radius: 12px;
+	color: white;
+	transition: all 0.5s linear;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+
+.separador:hover{
+	transform: scale(0.9);
+	box-shadow: 6px 6px 4px #444444;
+	color: #FFF;
+	background-color:  #96dff4;
+	border: solid 1px blue;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+

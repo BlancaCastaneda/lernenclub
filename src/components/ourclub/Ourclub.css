@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+
+.nuestroclub{
+  background-color: #c9dbe9;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;  
+}
+
+.img-teacher1{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 5px #fff;
+  
+}
+
+.texto1{
+  padding: 10px;
+}
+
+.img-teacher2{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 5px #fff;
+}
+
+.cajatipo1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.cajatipo2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  flex-direction: row-reverse;
+}
+
+
+.img1{
+  width: 40%;
+}
+
+
+h2{
+   font-family:'Fredoka One';
+   color: #0eb7e8;
+   margin-top: 20px;
+   text-align: left;
+   font-size: 25px;
+  
+}

@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 533 533" width="533" height="533">
+	<title>LKN_FACEBOOK</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.4;fill: #ffffff } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<g id="&lt;Group&gt;">
+	</g>
+	<g id="&lt;Group&gt;">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="shp0" d="M265.64 520.29C125.23 520.29 11 406.06 11 265.64C11 125.23 125.23 11 265.64 11C406.06 11 520.29 125.23 520.29 265.64C520.29 406.06 406.06 520.29 265.64 520.29Z" />
+			<path id="&lt;Compound Path&gt;" class="shp1" d="M347.18 266.41L294.41 266.41L294.41 454.59L216.19 454.59L216.19 266.41L179 266.41L179 199.95L216.19 199.95L216.19 156.92C216.19 126.17 230.78 78 295.11 78L353.05 78.25L353.05 142.77L311.01 142.77C304.1 142.77 294.41 146.21 294.41 160.88L294.41 200L354 200L347.18 266.41Z" />
+		</g>
+	</g>
+</svg>

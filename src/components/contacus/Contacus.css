@@ -1,0 +1,172 @@
+h1{
+  color:  #0EB7EB;
+  font-size: 30px;
+  margin: 30px;
+  font-family: "Fredoka One", normal;
+  text-shadow: 4px 4px 4px #000;
+}
+
+  
+p{
+  
+  font-family: 'Amiko';
+}
+ 
+.formulario{
+  box-shadow: 0 0 5px 2px #999;
+  background-color: rgba(0,0,0,0.1);
+  max-height: 1100px;
+  width: 700px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+#formulario{
+  max-width: 1000px;
+  width: 100%;
+  background: #c9dbe9;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+#formulario label{
+  display: inline-block;
+ 
+  text-align: center;
+  font-family: 'Amiko', sans-serif;
+}
+
+#formulario input[type=text], input[type=number], input[type=email],select,textarea{
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 8px 0;
+  resize: none;
+  font-family: 'Amiko', sans-serif;
+  background-color: #c9dbe9;;
+  border: solid 1px #939393;
+}
+  
+#formulario input[type=submit]{
+  width: 140px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 7px;
+  background: linear-gradient(rgb(49, 119, 238) 0%, rgb(17, 61, 138) 100%) white;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: "Fredoka One", normal;
+  letter-spacing: 1px;
+}
+  
+#formulario input[type=submit]:hover{
+  background:#FFFFFF;
+  color: #000000; 
+  border: solid 1px #939393;
+  letter-spacing: 1px;
+}
+  
+#formulario input[type=reset]{
+  width: 140px;
+  margin:10px;
+  padding: 10px;
+  border-radius: 7px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Fredoka One", normal;
+  border: solid 1px #939393;
+  letter-spacing: 1px;
+}
+
+.datos{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.aceptacion{
+  font-size: 12px;
+  font-weight: bold;
+}
+  
+.politica{
+  display: flex;
+  justify-content: center;
+  font-family: 'Amiko' sans-serif;
+}
+  
+#formulario input[type=reset]:hover{
+  background: linear-gradient(rgb(49, 119, 238) 0%, rgb(17, 61, 138) 100%) white;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+.botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.modal-header{
+  background-color: #c9dbe9;
+}
+
+.modal-title{
+  font-family: "Fredoka One", normal;
+}
+
+.modal-body{
+  background-color: #c9dbe9;
+  font-family: "Fredoka One", normal;
+}
+
+.modal-body p{
+  font-family: 'Amiko' sans-serif;
+}
+
+.modal-footer{
+  background-color: #c9dbe9;
+}
+
+p i{
+  color: rgb(9, 165, 9);
+}
+
+.button1{
+  background: linear-gradient(rgb(49, 119, 238) 0%, rgb(17, 61, 138) 100%) white;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: "Fredoka One", normal;
+  letter-spacing: 2px;
+}
+
+.button2{
+  background: linear-gradient(rgb(49, 119, 238) 0%, rgb(17, 61, 138) 100%) white;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: "Fredoka One", normal;
+  letter-spacing: 2px;
+}
